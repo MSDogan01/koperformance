@@ -61,7 +61,6 @@
 	<script defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBG44xDE8UhEz1UYzQQ7-6sDV1FODOs3dY&libraries=places"></script>
 	<!-- VUE -->
 	<script src="npm/vue/dist/vue.min.js" defer=""></script>
-	<!--[if lt IE 9]><script src="assets/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script><![endif]-->
 </head>
 <body id="top" class="unknown other ">
 <div id="wrapper">
@@ -99,12 +98,12 @@
 								<div id="predicted-places"></div>
 								<template>
 									<i class="fa fa-map-marker input-icon"></i>
-									<input id="rental-station" type="text" v-model="stationInput" @input="onChange" placeholder="Ort, Stadt etc.">
-									<label>Ort eingeben</label>
+									<input id="rental-station" type="text" v-model="stationInput" @input="onChange" placeholder="Suchen ...">
+									<label>Mietstation</label>
 									<ul v-show="isOpen" class="jk-autocomplete-results">
 										<li class="current-auto-complete">
 											<span class="jk-autocomplete-keyword">Suche: [[this.currentAutoGeoCompletion]]</span>
-											<p class="jk-autocomplete-results-hint">Ihre nächstgelegenen Mietstationen</p>
+											<p class="jk-autocomplete-results-hint">Mietstationen</p>
 										</li>
 										<li v-for="(item, i) in autocompleteSource" :key="i" @click="setResult(item.value)" class="jk-autocomplete-result">
 											<b>[[item.value]] ([[item.distance]] km) <sup>+ [[item.surcharge]] EUR</sup></b>
@@ -159,7 +158,7 @@
 					</div>
 					<div id="col-send">
 						<a id="btn-first" class="button fullwidth disabled">
-							<div class="hide-on-tablet show-on-mobile">AUTOS ZEIGEN</div>
+							<div class="hide-on-tablet show-on-mobile">AUTOS ANZEIGEN</div>
 							<div class="arrow white right hide-on-full hide-on-mobile"></div>
 						</a>
 					</div>
@@ -245,7 +244,13 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-			&nbsp;
+			<div class="text-section">
+				<p>
+					Die <a href="index.htm" title="KO Performance Cars GmbH">KO Performance Cars GmbH </a> ist ein Vorreiter in der Welt der Hochleistungsfahrzeuge. Mit einer herausragenden Flotte bieten wir ein unvergleichliches Erlebnis für alle Liebhaber von Sportwagen. Unser Hauptaugenmerk liegt auf dem einwandfreien Zustand unserer Fahrzeuge und der Aktualität unserer Auswahl. Bei uns kannst du auf erstklassigen Service und einen reibungslosen Vermietungsprozess vertrauen. Unsere engagierten Mitarbeiter setzen sich voll und ganz dafür ein, alle deine individuellen Anforderungen zu erfüllen.
+
+					Ob Fahrzeuge von BMW, Audi, Mercedes, Lamborghini, Ferrari oder anderen renommierten Marken - bei KO Performance Cars findest du eine umfassende Auswahl an Sportwagen, die ihresgleichen sucht. Um unseren Anspruch, die Nummer 1 zu sein, weiter auszubauen, haben wir ein innovatives Franchise-System entwickelt, das es uns ermöglicht, in naher Zukunft weitere Standorte in Deutschland und Österreich zu eröffnen. Wir streben danach, unseren Kunden stets das Beste zu bieten und ihre Erwartungen zu übertreffen.
+				</p>
+			</div>
 			</div>
 		</div>
 	</div>
@@ -263,7 +268,7 @@
 				<div class="cl3">
 					<h3>ÜBERSICHT</h3>
 					<ul>
-						<li><a href="index.htm">Home<a></li>
+						<li><a href="index.htm">Home</a></li>
 						<li><a href="fahrzeuge.html">Fahrzeuge</a></li>
 						<li><a href="datenschutz.html">Langzeitmiete</a></li>
 						<li><a href="kontakt.html">Kontakt</a></li>
@@ -272,7 +277,7 @@
 				<div class="cl3">
 					<h3>RECHTLICHES</h3>
 					<ul>
-						<li><a href="kontakt.html">Kontaktformular<a></li>
+						<li><a href="kontakt.html">Kontaktformular</a></li>
 						<li><a href="mietinformationen.html">Mietinformationen</a></li>
 						<li><a href="datenschutz.html">Datenschutz</a></li>
 						<li><a href="impressum.html">Impressum</a></li>
@@ -291,8 +296,7 @@
 			</div>
 		</div>
 	</footer>
-</div>
-<script>setTimeout(function(){var e=function(e,t){try{var n=new XMLHttpRequest}catch(r){return}n.open("GET",e,!0),n.onreadystatechange=function(){this.readyState==4&&this.status==200&&typeof t=="function"&&t(this.responseText)},n.send()},t="system/cron/cron.";e(t+"txt",function(n){parseInt(n||0)<Math.round(+(new Date)/1e3)-86400&&e(t+"php")})},5e3);</script>
+	</div>
 <script src="files/dcrent/functions.js?v=2" defer=""></script>
 <script>
 	const elem = document.getElementById('activatejs');
