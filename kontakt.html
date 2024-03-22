@@ -112,85 +112,7 @@
 						<!-- indexer::continue -->
 				</div>
 			</div>
-			<div id="booking-form">
-				<div id="activatejs" class="activatejs">
-					<p>Bitte aktivieren Sie JavaScript in ihrem Browser, andernfalls funktioniert diese Anwendung nicht.</p>
-				</div>
-				<div id="rental-data">
-					<div id="col-station">
-						<div class="input-field">
-							<!-- VUE INSTANCE -->
-							<div id="vueInstance">
-								<div id="predicted-places"></div>
-								<template>
-									<i class="fa fa-map-marker input-icon"></i>
-									<input id="rental-station" type="text" v-model="stationInput" @input="onChange" placeholder="Ort, Stadt etc.">
-									<label>Ort eingeben</label>
-									<ul v-show="isOpen" class="jk-autocomplete-results">
-										<li class="current-auto-complete">
-											<span class="jk-autocomplete-keyword">Suche: [[this.currentAutoGeoCompletion]]</span>
-											<p class="jk-autocomplete-results-hint">Ihre nächstgelegenen Mietstationen</p>
-										</li>
-										<li v-for="(item, i) in autocompleteSource" :key="i" @click="setResult(item.value)" class="jk-autocomplete-result">
-											<b>[[item.value]] ([[item.distance]] km) <sup>+ [[item.surcharge]] EUR</sup></b>
-											<div class="result-address" style="font-size:12px;">
-												[[item.street]], [[item.postal]] [[item.value]]
-											</div>
-										</li>
-										<li class="loadingspinner">
-											<div class="lds-spinner">
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-												<div></div>
-											</div>
-										</li>
-									</ul>
-								</template>
-							</div>
-						</div>
-					</div>
-					<div class="col-date">
-						<div class="input-field date">
-							<i class="fa fa-calendar input-icon"></i>
-							<input type="text" id="rental-start-date" autocomplete="off" readonly="" class="airpicker" placeholder="Beginn">
-							<label>Mietbeginn</label>
-						</div>
-						<div class="input-field time">
-							<i class="fa fa-clock-o input-icon"></i>
-							<input type="text" id="rental-start-time" autocomplete="off" class="timepicker" readonly="">
-							<label>Uhrzeit</label>
-						</div>
-					</div>
-					<div class="col-date">
-						<div class="input-field date">
-							<i class="fa fa-calendar input-icon"></i>
-							<input type="text" id="rental-end-date" autocomplete="off" readonly="" class="airpicker" placeholder="Ende">
-							<label>Mietende</label>
-						</div>
-						<div class="input-field time">
-							<i class="fa fa-clock-o input-icon"></i>
-							<input type="text" id="rental-end-time" autocomplete="off" class="timepicker" readonly="">
-							<label>Uhrzeit</label>
-						</div>
-					</div>
-					<div id="col-send">
-						<a id="btn-first" class="button fullwidth disabled">
-							<div class="hide-on-tablet show-on-mobile">AUTOS ZEIGEN</div>
-							<div class="arrow white right hide-on-full hide-on-mobile"></div>
-						</a>
-					</div>
-					<div id="costs-div"></div>
-				</div>
-			</div>
+
 		</div>
 	</header>
 	<div id="container">
@@ -286,6 +208,7 @@
 						</script>
 					</div>
 					<!-- indexer::continue -->
+
 				</div>
 				&nbsp;
 			</div>
