@@ -226,7 +226,7 @@ img {
 }
 
 .datepicker-table td.is-today {
-  border:1px solid #e73e1e;
+  border:1px solid #861500;
 }
 
 #col-station {
@@ -349,11 +349,11 @@ img {
 }
 
 .datepicker--cell.-current- {
-	color:#E73E1E !important;
+	color: #861500 !important;
 }
 
 .datepicker--day-name {
-	color:#E73E1E !important;
+	color: #861500 !important;
 }
 
 .datepicker--cell-day.-weekend- {
@@ -362,7 +362,7 @@ img {
 }
 
 .datepicker--cell.-selected-, .datepicker--cell.-selected-.-current- {
-	background:#E73E1E !important;
+	background: #861500 !important;
 }
 
 .datepicker--cell.-selected-.-current- {
@@ -381,7 +381,7 @@ img {
 }
 
 .datepicker--cell.-range-to-.-selected- {
-	background:#E73E1E !important;
+	background: #861500 !important;
 }
 
 .col-date .input-field.date {
@@ -421,13 +421,13 @@ img {
 /* Cookie Consent */
 
 .cc_container .cc_btn {
-    background-color: #E73E1E !important;
+    background-color: #861500 !important;
     color:#fff !important;
     max-width:150px !important;
 }
 
 .cc_container a {
-    color:#E73E1E !important;
+    color: #861500 !important;
 }
 
 /* General */
@@ -455,7 +455,7 @@ img {
 
 a {
     text-decoration:none;
-    color:#E73E1E;
+    color: #861500;
 }
 
 h1, h2, h3 {
@@ -485,7 +485,7 @@ h3 {
 }
 
 .orange {
-    color:#E73E1E;
+    color: #861500;
 }
 
 .text-left {
@@ -599,8 +599,8 @@ input:focus,
 textarea:focus,
 input {
     outline:0;
-	border-bottom:2px solid #e73e1e;
-	color:#e73e1e;
+	border-bottom:2px solid #861500;
+	color: #861500;
 }
 
 input::placeholder,
@@ -669,8 +669,8 @@ input[type=submit]:hover, .button:hover {
 }
 
 .button-white:hover {
-	border-color:#e73e1e;
-	color:#e73e1e;
+	border-color: #861500;
+	color: #861500;
 }
 
 .formbody {
@@ -803,7 +803,7 @@ nav ul {
     margin:0;
     padding:0;
     font-size:15px;
-    color:#E73E1E;
+    color: #861500;
     text-transform:uppercase;
     list-style-type:none;
     font-weight:700;
@@ -818,7 +818,7 @@ nav ul.level_1 > li {
 nav ul.level_1 > li.active,
 nav ul.level_1 > li.trail {
     padding-bottom:7px;
-    border-bottom:1px solid #E73E1E;
+    border-bottom:1px solid #861500;
 }
 
 nav ul.level_1 > li.submenu {
@@ -847,7 +847,7 @@ nav ul.level_1 > li.submenu > a.submenu::after {
 }
 
 nav ul.level_1 > li.submenu:hover a.submenu::after {
-	border-top-color:#e73e1e;
+	border-top-color: #861500;
 }
 
 nav ul.level_2 {
@@ -874,7 +874,7 @@ nav ul.level_2 li {
 }
 
 nav ul.level_1 > li.trail > a {
-    color:#E73E1E;
+    color: #861500;
 }
 
 nav a {
@@ -884,7 +884,7 @@ nav a {
 }
 
 nav li:hover > a {
-    color:#E73E1E;
+    color: #861500;
 }
 
 .top-menu > a {
@@ -1179,13 +1179,13 @@ footer > .inside {
 }
 
 .cars-item:hover .cars-text > .button {
-    border-color:#E73E1E;
-    color:#E73E1E;
+    border-color: #861500;
+    color: #861500;
     background:none;
 }
 
 .cars-item:hover .cars-text .button a {
-    color:#E73E1E;
+    color: #861500;
 }
 
 .longterm-container {
@@ -1286,7 +1286,7 @@ footer > .inside {
     max-width:350px;
     padding-top:100px;
     padding-bottom:100px;
-    background-color:#e73e1e;
+    background-color: #861500;
     -webkit-box-shadow:0 0 30px 0 rgba(0,0,0,.4);
     box-shadow:0 0 30px 0 rgba(0,0,0,.4);
     color:#fff;
@@ -1333,7 +1333,7 @@ footer > .inside {
 
 .price-tab.highlighted .button {
 	background:#fff;
-	color:#e73e1e;
+	color: #861500;
 }
 
 .rental-info {
@@ -1539,7 +1539,7 @@ footer > .inside {
 	
 	nav.mod_navigation li span.active {
 		display:block;
-		background-color:#e73e1e;
+		background-color: #861500;
 		color:#fff;
 	}
 	
@@ -1953,7 +1953,7 @@ footer > .inside {
 		width:100%;
 		float:none;
 		margin-bottom:10px;
-		border:3px solid #E73E1E;
+		border:3px solid #861500;
 	}
 	
 	div.duration h3 {
