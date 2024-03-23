@@ -908,7 +908,7 @@ nav li:hover > a {
     width:100%;
     height:400px;
     position:relative;
-    background-image:url("../../files/dcrent/images/ferrari-488-gtb-mieten.jpg");
+    background-image:url("koperformance/images/ferrari-488-gtb-mieten.jpg");
     background-position:center center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -2014,7 +2014,7 @@ nav ul.level_1 > li.submenu > a.submenu::after {
 
 #booking-form {
 	height:550px;
-	background: url(../../files/dcrent/images/header-big-background.jpg) center bottom / cover;
+	background: url(koperformance/images/header-big-background.jpg) center bottom / cover;
 	margin-bottom:30px;
 }
 
